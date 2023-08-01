@@ -163,7 +163,7 @@ main {
 .card {
     overflow: hidden;
     border-radius: 1rem;
-    max-width: 300px;
+    max-width: 350px;
     box-shadow: 0px 0px 30px hsla(0, 0%, 0%, 0.325);
 }
 
