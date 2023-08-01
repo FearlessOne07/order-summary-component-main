@@ -176,6 +176,11 @@ main {
 
 .flex-group {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+}
+
+.price {
+    display: flex;
+    gap: 1rem;
 }
