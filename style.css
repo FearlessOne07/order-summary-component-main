@@ -107,14 +107,34 @@ a {
     color: hsl(245, 75%, 52%);
 }
 
+a:hover,
+a:active {
+    color: hsl(266, 47%, 56%);
+    text-decoration: none;
+}
+
 .proceed {
     background-color: hsl(245, 75%, 52%);
     border-radius: .5rem;
     box-shadow: 0px 5px 30px hsl(245, 75%, 52%, .4);
+    transition: all .3s;
+}
+
+.proceed:hover {
+    background-color: hsl(266, 47%, 56%);
+    cursor: pointer;
 }
 
 .cancel {
     background: #fff;
+    transition: all .2s;
+}
+
+.cancel:hover,
+.cancel:active {
+    color: hsl(223, 47%, 23%);
+    cursor: pointer;
+
 }
 
 /* Layout */
